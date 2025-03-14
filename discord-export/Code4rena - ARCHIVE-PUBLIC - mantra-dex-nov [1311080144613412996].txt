@@ -1,0 +1,339 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-PUBLIC / mantra-dex-nov
+==============================================================
+
+[11/26/2024 21:24] cloudellie
+👋 Hello and welcome to the** $60,000 in USDC MANTRA DEX** audit channel!
+
+📆 Audit opens Friday, 29 November 2024 (20:00 UTC) and runs through Monday, 13 January 2025 (20:00 UTC) (45 days).
+
+Please give a warm welcome to the MANTRA team, particularly @Delroy, @jvr0x, and @mantra_man , who will be available for questions either here in the channel or via a PRIVATE thread. You can expect them to be available in Europe & Asia time zones. 
+
+🤖 **Documentation bot assistance:** For general questions about the codebase, give our documentation bot a try, by tagging `@Docs Wolf` in any thread (private or public) and asking your question. The bot will make its best attempt to answer based on the codebase and documentation, and link you to relevant resources.  *Docs Wolf will be available when the audit is live.*
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/audits/2024-11-mantra-dex
+
+
+[11/30/2024 04:37] rudhra_52418
+Did total nsloc 22268 ?
+
+
+[11/30/2024 10:21] 4gontuk
+yes
+
+{Reactions}
+👍 
+
+[12/09/2024 13:31] cloudellie
+ℹ️ Wardens, FYI we've added @jvr0x, Mantra's SC engineer, to the list of sponsor team members to tag in private threads if you have questions about the codebase.
+
+{Reactions}
+👍 (2) 
+
+[12/13/2024 13:47] dvoe4056
+Hey @CloudEllie @Delroy @jvr0x I have a question about the acceptability of the bugs, For example if a Bug Explicitly Exists in the smart contract but due to the customized and application-specific logic of mantra chain that bug becomes invalid in on-chain execution, what would happen in that case? since some or most of the researchers auditing CosmWasm based Smart Contracts may not be familiar with the GO implementation of Cosmos SDK in customized chains
+
+
+[12/16/2024 11:24] jvr0x
+If you consider you found a bug taking the chain logic into consideration feel free to raise the bug
+
+{Reactions}
+❤️ 👍 ✅ 
+
+[12/23/2024 12:53] evokid
+I done that already.
+
+{Reactions}
+🔥 (3) 
+
+[12/23/2024 22:00] cloudellie (pinned)
+@🐺Wardens  Since this audit includes live code, a reminder about [Code4rena's "live criticals" policy](https://docs.code4rena.com/awarding/incentive-model-and-awards#the-live-criticals-exception), which outlines how C4 handles disclosures of critical/high-severity bugs in deployed code.
+
+- The code in scope for this audit is mantra-dex 1.0.0
+- Release history: https://github.com/MANTRA-Chain/mantra-dex/releases
+
+
+[12/25/2024 09:47] kartoonjoy
+Pinned a message.
+
+
+[12/27/2024 18:23] evokid
+@jvr0x sir, whenever you are avalaible check my PT please thanks.
+
+
+[12/29/2024 15:14] nmirchev8
+Same here!
+
+
+[12/30/2024 10:45] jvr0x
+Replied everybody's messages. Sorry about the delay, holidays ☺️ @evokid @nmirchev8
+
+{Reactions}
+🫡 
+
+[01/03/2025 21:32] c0pp3rscr3w3r
+the test files are in scope as well right?
+
+
+[01/06/2025 15:04] cloudellie (pinned)
+@🐺Wardens follow-up to my previous post about "live criticals" and deployed code: 
+
+- **Not all code in the audit repo is currently deployed.** Only findings affecting deployed/live code should be submitted as sensitive disclosures.
+- The deployments are listed in the docs: https://docs.mantrachain.io/mantra-smart-contracts/mantra_dex/deployments
+- Right now, **only the pool manager and fee collector are live,** although the farm manager and epoch manager code is expected to be final and ready to deploy.
+
+Apologies for the @-spam but wanted to make sure all participating wardens have shared context! Thank you all for your diligence in surfacing potentially sensitive issues via the proper method. 🙏
+
+{Embed}
+https://docs.mantrachain.io/mantra-smart-contracts/mantra_dex/deployments
+Deployments | MANTRA Chain
+Code4rena - ARCHIVE-PUBLIC - mantra-dex-nov [1311080144613412996].txt_Files/eYZ0D8Obz9OSPEMMul3Y-C6C16
+
+{Reactions}
+❤️ (2) 
+
+[01/06/2025 15:04] cloudellie
+Pinned a message.
+
+
+[01/11/2025 18:06] evokid
+Just submitted my findings! See you guys on the other side of the universe 🌍
+
+{Reactions}
+hi5 (8) 
+
+[01/14/2025 01:02] C4
+**🚨 AUDIT ALERT**
+
+@wardens The **MANTRA DEX** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks.
+
+
+[01/28/2025 11:54] dvoe4056
+when should we expect the results to be out?
+
+
+[01/28/2025 12:11] brivan
+Judging is ongoing. PJQA could start by end of week or next week
+
+{Reactions}
+👍 
+
+[01/30/2025 17:08] web3files
+what's pjqa
+
+
+[02/07/2025 12:47] lookman6596
+@Abdessamed what's the progress uphere
+
+
+[02/07/2025 12:51] brivan
+Everything is done (included PJQA), results could be today, early next week.
+
+{Reactions}
+👌 
+
+[02/07/2025 12:52] lookman6596
+Hope I did well in this one with my submissions.
+
+
+[02/07/2025 12:53] lookman6596
+insha'Allah
+
+{Reactions}
+hi5 (2) 
+
+[02/07/2025 13:04] cloudellie
+The judge and sponsor are just running through a few final details here. Should be finalized soon.
+
+{Reactions}
+👍 (5) 
+
+[02/11/2025 11:42] brivan
+Hey @CloudEllie It seems from the dahsboard that the judging is completed, can we expect the results soon?
+
+
+[02/11/2025 11:44] cloudellie
+status is now visible on the website 🙂
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - mantra-dex-nov [1311080144613412996].txt_Files/image-A4697.png
+
+
+[02/11/2025 11:45] brivan
+Oh, I missed this update, sorry for redundancy, and thx for updates
+
+{Reactions}
+hi5 
+
+[02/11/2025 11:46] cloudellie
+np, "awarding" phase is quite brief but we're trying to keep things up to date on the site for better transparency/visibility
+
+{Reactions}
+thankyou 
+
+[02/11/2025 11:46] cloudellie
+Expecting the announcement in a few hours, once US team is online
+
+{Reactions}
+hi5 (3) 
+
+[02/11/2025 15:04] cloudellie
+🤑 🎉  Awards for **MANTRA DEX**:
+
+@carrotsmuggler » $15,876.19 USDC
+@oakcobalt » $5,729.36 USDC
+0xAlix2 (@a_kalout, @ali_shehab) » $4,436.61 USDC
+@Abdessamed » $4,383.96 USDC
+@Roman » $3,818.92 USDC
+@DadeKuma » $2,923.31 USDC
+@0x1982us » $2,276.67 USDC
+@Bauchibred » $2,190.40 USDC
+@Tigerfrake » $1,348.43 USDC
+@LonnyFlash » $975.84 USDC
+@Rajkumar » $943.26 USDC
+Egis_Security (@nmirchev8, @deth) » $898.20 USDC
+@evokid » $821.08 USDC
+DOWSERS (@desaperh, @Pepito, @n0kto) » $618.84 USDC
+@Rhaydden » $484.27 USDC
+@peachtea3471 » $396.53 USDC
+@Daniel526 » $305.03 USDC
+@audinarey » $305.03 USDC
+@p0wd3r » $305.03 USDC
+@Lookman » $237.63 USDC
+@jasonxiale » $220.66 USDC
+@gegul » $183.96 USDC
+@0x0 » $96.48 USDC
+@Usagi » $12.22 USDC
+@Sparrow » $12.22 USDC
+
+🏁 Findings summary
+--------------------------------------—
+12 High risk findings
+20 Med risk findings
+45 wardens participated
+
+Top Hunter: carrotsmuggler
+Top Gatherer: carrotsmuggler
+Top QA report: Bauchibred
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+⚠️ Awardees, be sure to [complete your tax reporting info](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) if you haven't already. This must be completed within 30 days (i.e. by Thursday, 13 March 2025) to receive your award distribution for this audit.
+
+The leaderboard will be updated at a later date with these audit results. 
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and submissions are made public to check on your submissions.*
+
+{Embed}
+https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process
+Awarding process | Code4rena
+This is a high level overview of the C4 awarding process.
+
+{Reactions}
+👍🏼 🔥 (2) 
+
+[02/11/2025 15:09] brivan
+This dog scares me a lot
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - mantra-dex-nov [1311080144613412996].txt_Files/image-24AC5.png
+
+{Reactions}
+😂 (7) 
+
+[02/11/2025 15:09] brivan
+Congrats @carrotsmuggler
+
+{Reactions}
+🫡 ❤️ 
+
+[02/11/2025 15:09] 0xsl1
+congrats @Abdessamed
+
+{Reactions}
+❤️ (5) 
+
+[02/11/2025 15:09] 0xrajkumar
+Congrats everyone!
+
+
+[02/11/2025 15:09] 0xrajkumar
+You guys killed it.
+
+{Reactions}
+🫡 (2) 
+
+[02/11/2025 15:10] brivan
+Thanks mate :hi5:
+
+{Reactions}
+🤍 
+
+[02/11/2025 15:17] a_kalout
+congrats everyone! This was our very first Rust contest and we learned a lot from y'all :hi5:
+
+{Reactions}
+hi5 (7) 👑 
+
+[02/11/2025 15:56] cloudellie
+Nice! More Rust competitions coming 👀
+
+{Reactions}
+👀 (8) 🚀 
+
+[02/11/2025 16:02] carrotsmuggler
+
+
+{Attachments}
+Code4rena - ARCHIVE-PUBLIC - mantra-dex-nov [1311080144613412996].txt_Files/ezgif-16cfb6e6406852-809C2.gif
+
+{Reactions}
+😂 (7) 
+
+[02/11/2025 16:31] evokid
+Congrats everyone 🎉 and @DadeKuma @Bauchibred @Roman !
+Badass security mates! 👌
+
+{Reactions}
+🫡 (3) 🔥 
+
+[02/11/2025 16:50] bytes032
+amazing job @carrotsmuggler
+
+{Reactions}
+🔥 (5) 
+
+[02/11/2025 17:04] 0xrajkumar
+https://tenor.com/view/one-pieceg8-one-piece-anime-luffy-g8-gif-17711803
+
+{Embed}
+https://tenor.com/view/one-pieceg8-one-piece-anime-luffy-g8-gif-17711803
+Code4rena - ARCHIVE-PUBLIC - mantra-dex-nov [1311080144613412996].txt_Files/one-pieceg8-one-piece-5628F.png
+
+
+[02/13/2025 07:50] peachtea3471
+Hey, I submitted my tax information, but the web page does not reflect anything. Is this intended?
+
+
+[02/13/2025 09:12] cloudellie
+It can take a week or so to review the info. But the important thing for timelines is that you submitted in time.
+
+{Reactions}
+👍 
+
+[03/07/2025 00:03] itsmetechjay
+ℹ️ This channel is pending archive.   As a result, any private threads will be permanently deleted in 03/14/2025 23:01. Please make sure to grab anything you might need before then.
+
+
+[03/14/2025 20:09] itsmetechjay
+ℹ️ Reminder: this channel will be deleted after 24 hours.
+
+
+==============================================================
+Exported 47 message(s)
+==============================================================
